@@ -132,39 +132,6 @@ button {
   color: #fff;
 }
 
-/*  */
-.supporters {
-  background-color: #51c3e8;
-}
-.total__box {
-  color: #fff;
-  text-align: center;
-}
-.big__title {
-  padding: 1rem 0;
-  font-size: 5rem;
-}
-
-.total__box > p {
-  font-size: 1.6rem;
-  padding: 1rem 0;
-}
-/* bottom menu */
-.bottom__menu {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 1rem 0;
-  border-top: 0.3rem solid green;
-  background-color: white;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
 /* The Voices of Our Voters  */
 .content__box {
   background-color: #cfcfcf8c;
@@ -173,7 +140,7 @@ button {
   padding: 1rem;
 }
 .voice__header {
-  margin-top: 1rem;
+  margin-top: 3rem;
   text-align: center;
 }
 .voice__header > h1 {
@@ -226,4 +193,40 @@ button {
   font-size: 1.3rem;
   color: #383737;
   line-height: 1.2;
+}
+
+/* support */
+.supporters {
+  background-color: #51c3e8;
+  margin: auto;
+  width: 85%;
+  padding: 1rem;
+}
+.total__box {
+  color: #fff;
+  text-align: center;
+}
+.big__title {
+  padding: 1rem 0;
+  font-size: 5rem;
+}
+
+.total__box > p {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
+/* bottom menu */
+.bottom__menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0;
+  border-top: 0.3rem solid green;
+  background-color: white;
+  font-size: 1.5rem;
+  text-align: center;
 }
