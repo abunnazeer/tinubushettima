@@ -107,8 +107,7 @@ h1 {
 /* button section */
 .button__container {
   background-color: #e2e2e2;
-  padding: 0.5rem;
-
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -214,6 +213,85 @@ button {
 .total__box > p {
   font-size: 1.6rem;
   padding: 1rem 0;
+}
+
+.voter__location {
+  background-color: blue;
+  margin: 1rem auto;
+  width: 85%;
+  padding: 1rem;
+  color: #fff;
+}
+.voter__location h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.voter__location label {
+  font-size: 1.5rem;
+}
+.voter__location select,
+button {
+  width: 100%;
+  height: 3.5rem;
+  margin: 0.5rem 0;
+}
+.voter__location button {
+  background-color: red;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* news section */
+.news {
+  position: relative;
+  margin: 1rem auto;
+  width: 90%;
+  border: 0.2rem #dddddd solid;
+  background-color: #f0f0f0;
+}
+.news__header {
+  text-align: center;
+}
+.news__img {
+  width: 100%;
+  height: 20rem;
+}
+.news__img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.date {
+  position: absolute;
+  top: 0;
+  background-color: red;
+  width: 30%;
+  margin: auto;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.4rem;
+  text-transform: uppercase;
+}
+.news__title {
+  font-weight: 600;
+  color: #1d1d1d;
+  margin: 0.6rem;
+}
+.news_desc {
+  font-size: 1.4rem;
+  margin: 0.6rem;
+  color: #1d1d1d;
+}
+.read__more {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.read__link {
+  background-color: #e7e7e7;
+  width: 30%;
+  padding: 1.1rem;
+  margin: auto;
+  border: 0.2rem #6d6c6c solid;
 }
 /* bottom menu */
 .bottom__menu {
